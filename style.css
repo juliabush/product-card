@@ -40,3 +40,22 @@ body {
     display: grid;
     gap: var(--content-spacing);
 }
+.product__category {
+    font-size: 0.8125rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.product__title {
+    font-size: 2rem;
+    font-family: 'Fraunces';
+    color: hsl(212, 21%, 14%);
+}
+.visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
