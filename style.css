@@ -26,6 +26,7 @@ body {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 .product {
     --content-padding: 3rem;
@@ -58,4 +59,7 @@ body {
     position: absolute;
     white-space: nowrap; 
     width: 1px;
+  }
+  .product__price {
+    font-size: 1.75rem;
   }
